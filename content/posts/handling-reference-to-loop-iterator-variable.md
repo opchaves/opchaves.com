@@ -1,7 +1,7 @@
 ---
 title: "Handling Reference to Loop Iterator Variable in Go"
 date: 2022-12-07T12:05:03-03:00
-draft: false
+draft: true
 ---
 
 ## Introduction
