@@ -1,4 +1,63 @@
-baseURL: https://opaulochaves.com
+baseURL: https://opchaves.com
 languageCode: en-us
 title: Paulo Chaves
 theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: true
+
+params:
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+
+  homeInfoParams:
+    Title: Hi, I'm Paulo Chaves
+    Content: I'm a Software Engineer. I'm looking forward to sharing my experience with programming and cycling with you.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/opchaves"
+    - name: twitter
+      url: "https://twitter.com/opchaves"
+    - name: linkedin
+      url: "https://linkedin.com/in/opchaves"
+    - name: instagram
+      url: "https://instagram.com/opchaves"
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 10
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 20
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 30
+    - identifier: posts
+      name: posts
+      url: /posts/
+      weight: 40
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary

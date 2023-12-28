@@ -1,7 +1,6 @@
 ---
 title: "Handling Reference to Loop Iterator Variable in Go"
 date: 2022-12-07T12:05:03-03:00
-draft: true
 ---
 
 ## Introduction
@@ -181,5 +180,4 @@ for _, u := range users {
 
 To keep track of the current user a new variable `newU` is created and the current user
 is assigned to it. Since `:=` is being used a new address is generated and that new one
-is appended to the slice. Now each user has its own reference. 
-[Source code on Github](https://github.com/opaulochaves/go-myserver).
+is appended to the slice. Now each user has its own reference.
