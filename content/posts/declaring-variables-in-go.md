@@ -1,7 +1,7 @@
 ---
 title: "Declaring Variables in Go"
 tags: ["go"]
-date: 2024-03-01T11:15:00
+date: 2024-03-01T11:30:00
 ---
 
 Go as a statically typed language requires the developer to set the type of a variable when declaring one.
